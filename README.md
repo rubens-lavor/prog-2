@@ -1,5 +1,5 @@
-## Prog 1
+## Prog 2
 
 ---
 
-VPL's da disciplina de programação 2 - Estruturas de dados
+VPL's da disciplina de Programação 2 - Estruturas de dados
