@@ -57,21 +57,21 @@ jogador_t *le_jogadores(char *nome, int *njogadores) {
     return armazena;
 }
 
-int statj_mais_arremessos(jogador_t *jogadores, int njogadores, char tipo);
+int statj_mais_arremessos(jogador_t *jogadores, int njogadores, char tipo){}
 
-int statj_mais_cestas(jogador_t *jogadores, int njogadores, char tipo);
+int statj_mais_cestas(jogador_t *jogadores, int njogadores, char tipo){}
 
-int statj_melhor_percentual(jogador_t *jogadores, int njogadores, char tipo);
+int statj_melhor_percentual(jogador_t *jogadores, int njogadores, char tipo){}
 
-int statj_jogos(jogador_t *jogadores, int njogadores, char tipo);
+int statj_jogos(jogador_t *jogadores, int njogadores, char tipo){}
 
-int statj_idade(jogador_t *jogadores, int njogadores, char tipo);
+int statj_idade(jogador_t *jogadores, int njogadores, char tipo){}
 
-int statj_minutos(jogador_t *jogadores, int njogadores, char tipo);
+int statj_minutos(jogador_t *jogadores, int njogadores, char tipo){}
 
-int statj_pontos(jogador_t *jogadores, int njogadores, char tipo);
+int statj_pontos(jogador_t *jogadores, int njogadores, char tipo){}
 
-int statt_soma_pontos(jogador_t jogadores, int njogadores, char time);
+int statt_soma_pontos(jogador_t jogadores, int njogadores, char time){}
 
 float statt_media_pontos(jogador_t jogadores, int njogadores, char time){}
 
