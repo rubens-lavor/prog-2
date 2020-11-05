@@ -244,31 +244,8 @@ int statt_soma_pontos(jogador_t jogadores, int njogadores, char time);
  *                   feita pelos jogadores do time especificado. Se o nome do time for in-
  *                   válido (time sem jogadores), retorna 0.
  */
-float statt_media_pontos(jogador_t jogadores, int njogadores, char time);
+float statt_media_pontos(jogador_t jogadores, int njogadores, char time){}
 
-/**
- * @brief   Média de idade dos jogadores de um time
- * @details Retorna a média de idade dos jogadores de um time
- * 
- * @param jogadores  Vetor com os jogadores
- * @param njogadores Número de jogadores
- * @param time 		 String com o nome do time
- * @return           Se jogadores ou time forem nulos, retorna -1. Retorna a média de idade
- *                   dos jogadores do time especificado. Se o nome do time for inválido 
- *                   (time sem jogadores), retorna 0.
- */
-float statt_media_idade(jogador_t jogadores, int njogadores, char time);
+float statt_media_idade(jogador_t jogadores, int njogadores, char time) {}
 
-/**
- * @brief   Número de jogadores de uma posição no time
- * @details Retorna o número de jogadores de uma determinada posição que o time possui
- * 
- * @param jogadores  Vetor com os jogadores
- * @param njogadores Número de jogadores
- * @param time 		 String com o nome do time
- * @param posicao	 String com o nome da posição
- * @return           Se jogadores, time ou posição forem nulos, retorna -1. Retorna o número 
- * 					 de jogadores de uma dada posição que o time possui. Se o nome do time 
- * 					 ou posição forem inválidos (não estiverem no arquivo), retorna 0.
- */
-int statt_posicao(jogador_t jogadores, int njogadores, char *time, char posicao);
+int statt_posicao(jogador_t jogadores, int njogadores, char *time, char posicao) {}
