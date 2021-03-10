@@ -1,6 +1,6 @@
-# Prog 2
+# Programação 2
 
-VPL's da disciplina de Programação 2 - Estruturas de dados
+Atividades propostas por meio de LVPs (Laboratório virtual de programação), da disciplina de Programação 2 - Estrutura de dados. 
 
 ---
 
@@ -50,20 +50,24 @@ Considere um arquivo de acesso aleatório (i.e., arquivo binário) que contenha 
 - Nome, estado do time, dia, mes e ano da fundação do time;
 - Número de títulos do campeonato brasileiro, da copa do brasil, da libertadores da américa e estaduais;
 Além disso, cada time possui 21 jogadores, sendo que para cada jogador existe as seguintes informações:
-  - Nome do jogador;
-  - Posição do jogador, sendo do tipo inteiro (0 para goleiro, 1 zagueiro, 2 lateral, 3 volante, 4 meio e 5 atacante),
-  - Número de gols marcados, de bolas roubadas, de jogos disputados, finalizações certas, finalizações erradas, faltas recebidas, faltas cometidas, cartões vermelhos, cartões amarelos, penaltis defendidos e defesas realizadas.
+- Nome do jogador;
+- Posição do jogador, sendo do tipo inteiro (0 para goleiro, 1 zagueiro, 2 lateral, 3 volante, 4 meio e 5 atacante),
+- Número de gols marcados, de bolas roubadas, de jogos disputados, finalizações certas, finalizações erradas, faltas recebidas, faltas cometidas, cartões vermelhos, cartões amarelos, penaltis defendidos e defesas realizadas.
+
 A tarefa desse laboratório virtual de programação é implementar funções para o processamento de informações sobre os times e sobre os seus jogadores. As seguintes funções são requisitadas:
-    1. Encontrar o jogador que tem o maior número de cartões vermelhos no menos número de jogos.
-    2. Encontrar o jogador artilheiro, aquele que tem o maior número de gols.
-    3. Encontrar o jogador mais eficiente, aquele que fez mais gols em menos jogos.
-    4. Encontrar time com mais títulos, sendo uma proporcao entre o numero de titulos (soma de todos os titulos) e o ano de fundacao (considere apenas o ano).
-    5. Encontrar o goleiro que defendeu mais penaltis.
-    6. Encontrar o jogador mais agressivo, considerando peso 5 para cartao vermelho, 1 para amarelo e 0.2 para faltas cometidas.
+
+- Encontrar o jogador que tem o maior número de cartões vermelhos no menos número de jogos.
+- Encontrar o jogador artilheiro, aquele que tem o maior número de gols.
+- Encontrar o jogador mais eficiente, aquele que fez mais gols em menos jogos.
+- Encontrar time com mais títulos, sendo uma proporcao entre o numero de titulos (soma de todos os titulos) e o ano de fundacao (considere apenas o ano).
+- Encontrar o goleiro que defendeu mais penaltis.
+- Encontrar o jogador mais agressivo, considerando peso 5 para cartao vermelho, 1 para amarelo e 0.2 para faltas cometidas.
+
 Além dessas funções, são necessárias também 3 funções auxiliares:
-    7. Uma função que retorna uma estrutura contendo todos os times lidos de um arquivo, bem como o número de times.
-    8. Uma função que realiza a abertura de um arquivo.
-    9. Uma função que realiza o fechamento de um arquivo.
+
+- Uma função que retorna uma estrutura contendo todos os times lidos de um arquivo, bem como o número de times.
+- Uma função que realiza a abertura de um arquivo.
+- Uma função que realiza o fechamento de um arquivo.
 
 O arquivo "lab4.h" contém a descrição e o protótipo de cada função que deverá ser implementada dentro do arquivo "lab4.c". O arquivo "definicoes.h" contém duas estruturas, times_t e jogador_t, que devem ser usadas pelas funções.
 Um arquivo contendo alguns times, que servirá de modelo, está disponível para download. Você pode usar esse arquivo modelo para testar a sua implementação. Entretanto, lembre-se o número de times pode (e irá) variar (o arquivo de entrada poderá inclusive estar vazio). Os nomes de times, jogadores e valores de cada estatística foram gerados de forma aleatória, portanto, serão strings de texto que provavelmente não fazem sentido quando lidas.
@@ -95,15 +99,18 @@ As operações que deverão ser implementadas são:
 - Retornar o valor do menor elemento dentro de um conjunto;
 - Retornar o valor do maior elemento dentro de um conjunto;
 - Imprimir todos os elementos do conjunto;
+
 Os seguintes arquivos estão disponíveis:
 - "conjunto_privado.h": possui a declaração da estrutura interna do TAD conjunto, conjunto_t, bem como possíveis funções internas ao TAD. Define ELEMENTOS com o valor 10, sendo que esta constante deverá ser utilizada para criar um conjunto que poderá conter inicialmente o número de 10 ELEMENTOS. Note que o tamanho do conjunto poderá aumentar conforme forem inseridos elementos, podendo ultrapassar o valor de ELEMENTOS. Certifique-se de controlar esse caso na sua implementação.
 - "conjunt_interface.h": contém as declarações das operações do TAD conjunto, contendo uma descrição, pré-condições e pós-condições para cada operação.
 - "conjunto.c": deve conter a implementação das funções da interface do TAD conjunto.
+
 Esse laboratório envolve os tópicos:
-Alocação Dinâmica de Memória
-Estruturas
-Funções
-Organização no formato de TAD
+- Alocação Dinâmica de Memória
+- Estruturas
+- Funções
+- Organização no formato de TAD
+
 A dinâmica desse laboratório segue o estilo dos laboratórios 2 e 3.
 
 
@@ -112,7 +119,7 @@ A dinâmica desse laboratório segue o estilo dos laboratórios 2 e 3.
 ## LVP 6a - lista duplamente encadeada
 
 Este LVP trata da implementação de uma lista de nós duplamente encadeada de ponteiros genérica.
-A Lista deverá deverá ter as seguintes operações:
+A implemenção tem as seguintes operações:
 - Criação da lista;
 - Destruição da lista;
 - Verificar se a lista está vazia;
