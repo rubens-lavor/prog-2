@@ -29,8 +29,6 @@ Além de outras 3 funções auxiliares:
   - Uma função que realiza a abertura de um arquivo.
   - Uma função que realiza o fechamento de um arquivo.
 
-O arquivo "lab3.h" contém a descrição e o protótipo de cada função que deverá ser implementada dentro do arquivo "lab3.c".
-
 
 Esse laboratório envolve os tópicos:
 
@@ -43,18 +41,13 @@ Esse laboratório envolve os tópicos:
 
 ## 📂 LVP 3 - recursão
 
+Preenchimento de um tabuleiro por recursividade
 
 ---
 
 ## 📂 LVP 4 - arquivo binário
 
-Considere um arquivo de acesso aleatório (i.e., arquivo binário) que contenha informações sobre times de futebol e seus respectivos jogadores. As informações armazenadas de cada time são:
-- Nome, estado do time, dia, mes e ano da fundação do time;
-- Número de títulos do campeonato brasileiro, da copa do brasil, da libertadores da américa e estaduais;
-Além disso, cada time possui 21 jogadores, sendo que para cada jogador existe as seguintes informações:
-- Nome do jogador;
-- Posição do jogador, sendo do tipo inteiro (0 para goleiro, 1 zagueiro, 2 lateral, 3 volante, 4 meio e 5 atacante),
-- Número de gols marcados, de bolas roubadas, de jogos disputados, finalizações certas, finalizações erradas, faltas recebidas, faltas cometidas, cartões vermelhos, cartões amarelos, penaltis defendidos e defesas realizadas.
+Considere um arquivo de acesso aleatório (i.e., arquivo binário) que contenha informações sobre times de futebol e seus respectivos jogadores.
 
 A tarefa desse laboratório virtual de programação é implementar funções para o processamento de informações sobre os times e sobre os seus jogadores. As seguintes funções são requisitadas:
 
@@ -71,9 +64,6 @@ Além dessas funções, são necessárias também 3 funções auxiliares:
 - Uma função que realiza a abertura de um arquivo.
 - Uma função que realiza o fechamento de um arquivo.
 
-O arquivo "lab4.h" contém a descrição e o protótipo de cada função que deverá ser implementada dentro do arquivo "lab4.c". O arquivo "definicoes.h" contém duas estruturas, times_t e jogador_t, que devem ser usadas pelas funções.
-Um arquivo contendo alguns times, que servirá de modelo, está disponível para download. Você pode usar esse arquivo modelo para testar a sua implementação. Entretanto, lembre-se o número de times pode (e irá) variar (o arquivo de entrada poderá inclusive estar vazio). Os nomes de times, jogadores e valores de cada estatística foram gerados de forma aleatória, portanto, serão strings de texto que provavelmente não fazem sentido quando lidas.
-
 Esse laboratório envolve os tópicos:
   - Entrada e Saída: Arquivos
   - Alocação Dinâmica de Memória
@@ -85,6 +75,7 @@ Esse laboratório envolve os tópicos:
 ## 📂 LVP 5 - TAD conjunto
 
 Neste VLP você deverá construir um Tipo Abstrato da Dados (TAD) para manipulação de conjuntos. O arquivo "conjunto_privado.h" contém a definição da estrutura para os conjuntos, chamada de "conjunto_t".
+
 As operações implementadas são:
 - Criar um conjunto;
 - Destruir um conjunto;
@@ -102,19 +93,11 @@ As operações implementadas são:
 - Retornar o valor do maior elemento dentro de um conjunto;
 - Imprimir todos os elementos do conjunto;
 
-Os seguintes arquivos estão disponíveis:
-- "conjunto_privado.h": possui a declaração da estrutura interna do TAD conjunto, conjunto_t, bem como possíveis funções internas ao TAD. Define ELEMENTOS com o valor 10, sendo que esta constante deverá ser utilizada para criar um conjunto que poderá conter inicialmente o número de 10 ELEMENTOS. Note que o tamanho do conjunto poderá aumentar conforme forem inseridos elementos, podendo ultrapassar o valor de ELEMENTOS. Certifique-se de controlar esse caso na sua implementação.
-- "conjunt_interface.h": contém as declarações das operações do TAD conjunto, contendo uma descrição, pré-condições e pós-condições para cada operação.
-- "conjunto.c": deve conter a implementação das funções da interface do TAD conjunto.
-
 Esse laboratório envolve os tópicos:
 - Alocação Dinâmica de Memória
 - Estruturas
 - Funções
 - Organização no formato de TAD
-
-A dinâmica desse laboratório segue o estilo dos laboratórios 2 e 3.
-
 
 ---
 
@@ -142,12 +125,6 @@ Este LVP trata da implementação de uma Lista de nós duplamente encadeada de p
 - Separar uma lista em duas e retornar a nova lista;
 - Concatenar duas listas e retornar a nova lista criada (concatenada) e destruir as duas listas recebidas.
 
-Para a implementação do TDA Lista duplamente encadeada genérico, os seguintes arquivos estão disponíveis:
-
-- "lista_interface.h": Arquivo contendo a declaração das operações da lista, com pré e pós condições para cada operação e uma pequena descrição do comportamento esperado da operação;
-- "lista_privado.h": Arquivo contendo as declaraçãos das estruturas de dados lista e celula. As estruturas de dados não devem ser modificadas em hipótese alguma;
-- "lista.c": Arquivo que deverá conter a implementação das operações.
-
 Esse laboratório envolve os tópicos:
 - Alocação Dinâmica de Memória
 - Estruturas
@@ -155,6 +132,21 @@ Esse laboratório envolve os tópicos:
 - Organização no formato de TDA
 - TDA Lista duplamente encadeada genérico
 A dinâmica desse laboratório segue o estilo dos laboratórios anteriores.
+
+---
+## 📂 LVP 7a - pilha
+
+Fuções implementadas:
+
+- cria pilha
+- destroi pilha
+- pilha vazia 
+- pilha cheia 
+- tamanho pilha
+- empilha
+- desempilha
+- topo pilha 
+- imprime pilha 
 
 ---
 ## 📂 LVP 8 - fila
@@ -172,21 +164,13 @@ Este LVP trata da implementação de uma Fila encadeada (ou ligada) de ponteiros
 - Retornar o elemento da cauda da fila;
 - Imprimir a fila;
 
-Para a implementação do TDA fila genérico, os seguintes arquivos estão disponíveis:
-
-- "fila_interface.h": Arquivo contendo a declaração das operações da fila, com pré e pós condições para cada operação e uma pequena descrição do comportamento esperado da operação;
-
-- "fila_privado.h": Arquivo contendo as declaraçãos das estruturas de dados fila_t e celula_t. As estruturas de dados não devem ser modificadas em hipótese alguma;
-
-- "fila.c": Arquivo que deverá conter a implementação das operações;
-
 Esse laboratório envolve os tópicos:
 
-Alocação Dinâmica de Memória
-Estruturas
-Funções
-Organização no formato de TDA
-TDA fila
+- Alocação Dinâmica de Memória
+- Estruturas
+- Funções
+- Organização no formato de TDA
+- TDA fila
 
 
 ---
@@ -206,13 +190,6 @@ A ABB deverá deverá ter as seguintes operações:
 - Se o nó é folha
 - Retorna o filho esquerdo ou direito de um nó
 - Altura da árvore
-
-Para a implementação do TDA ABB genérico, os seguintes arquivos estão disponíveis:
-- "abb_interface.h": Arquivo contendo a declaração das operações da ABB, com pré e pós condições para cada operação e uma pequena descrição do comportamento esperado da operação;
-- "abb_privado.h": Arquivo contendo as declaraçãos das estruturas de dados abb e no. As estruturas de dados não devem ser modificadas em hipótese alguma;
-- "abb.c": Arquivo que deverá conter a implementação das operações;
-- "comum.h" : declaraçãoo de funções e do tipo enum codigo_erro que deverá ser utilizada para indicar erro de acordo com as funções da abb interface
-- "comum.c" : implementaçao das funções comuns (não é necessário implementar a função)
 
 Esse laboratório envolve os tópicos:
 - Alocação Dinâmica de Memória
