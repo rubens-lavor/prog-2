@@ -136,7 +136,7 @@ A dinâmica desse laboratório segue o estilo dos laboratórios anteriores.
 ---
 ## 📂 LVP 7a - pilha
 
-Fuções implementadas:
+Funções implementadas:
 
 - cria pilha
 - destroi pilha
