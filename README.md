@@ -41,8 +41,6 @@ Esse laboratório envolve os tópicos:
 
 ## 📂 LVP 3 - recursão
 
-Preenchimento de um tabuleiro por recursividade
-
 ---
 
 ## 📂 LVP 4 - arquivo binário
